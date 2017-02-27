@@ -1,6 +1,6 @@
-# L3
+# 一个使用react的单页应用
 
-L3 with react, redux, react-router, webpack, es6, sass, css-module ...
+spa with react, redux, react-router, webpack, es6, sass, css-module ...
 
 ## 环境准备
 
