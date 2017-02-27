@@ -1,0 +1,32 @@
+{
+  "status": 0,
+  "statusInfo": "success",
+  "data": {
+    "client": [
+      {
+        "id": 15,
+        "name": "Thor",
+        "role": "管理员",
+        "quota": "200MB",
+        "sec": "两部认证",
+        "groupCount": 19
+      },
+      {
+        "id": 16,
+        "name": "Hulk",
+        "role": "普通",
+        "quota": "200MB",
+        "sec": "两部认证",
+        "groupCount": 10
+      },
+      {
+        "id": 19,
+        "name": "Vision",
+        "role": "普通",
+        "quota": "200MB",
+        "sec": "无",
+        "groupCount": 8
+      }
+    ]
+  }
+}

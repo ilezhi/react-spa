@@ -1,0 +1,40 @@
+{
+  "status": 0,
+  "statusInfo": "success",
+  "data": {
+    "client": [
+      {
+        "id": 11,
+        "name": "Stark",
+        "age": 20,
+        "group": {
+          "id": 21,
+          "name": "分组1"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Captain",
+        "age": 22,
+        "group": {
+          "id": 22,
+          "name": "分组2"
+        }
+      }
+    ],
+    "group": [
+      {
+        "id": 21,
+        "addr": "USA"
+      },
+      {
+        "id": 22,
+        "addr": "CN"
+      },
+      {
+        "id": 23,
+        "addr": "UK"
+      }
+    ]
+  }
+}

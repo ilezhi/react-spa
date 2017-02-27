@@ -1,0 +1,11 @@
+'use strict';
+
+// 初始化首页统计数据
+export const STAT_INVALIDATE = 'STAT_INVALIDATE';
+export const STAT_REQUEST = 'STAT_REQUEST';
+export const STAT_SUCCESS = 'STAT_SUCCESS';
+export const STAT_FAILURE = 'STAT_FAILURE';
+
+export const CLIENT_GROUP_REQUEST = 'CLIENT_GROUP_REQUEST';
+export const CLIENT_GROUP_SUCCESS = 'CLIENT_GROUP_SUCCESS';
+export const CLIENT_GROUP_FAILURE = 'CLIENT_GROUP_FAILURE';

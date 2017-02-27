@@ -1,0 +1,20 @@
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    width: 18rem;
+  }
+}
+
+.fastFilter {
+  width: 25rem;
+}
+
+.fastFilter button + button {
+  margin-left: 1rem;
+}
+
+.dateRangeWrap {
+  flex: 1;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.statWrap {
+  display: flex;
+  justify-content: space-around;
+  div {
+    height: 10rem;
+
+    p, a {
+      text-align: center;
+    }
+    a {
+      font-size: 3.6rem;
+      color: #000000;
+    }
+
+    p {
+      margin-top: 2.2rem;
+    }
+  }
+}
+
+.chartWrap {
+  margin: 0 1rem;
+}
+
+.layouts {
+  padding: 2rem 0 0;
+  border-top: 1px solid #eee;
+}
+
+.chartInner {
+  min-height: 40rem;
+  padding: 2rem 1.5rem;
+}

@@ -1,0 +1,12 @@
+{
+  "status": 0,
+  "statusInfo": "success",
+  "data": {
+    "stat": {
+      "usage": 2.1,
+      "total": 5,
+      "clientsCount": 200,
+      "groupsCount": 30
+    }
+  }
+}

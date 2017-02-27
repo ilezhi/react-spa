@@ -1,0 +1,251 @@
+// ---------------------------
+// reset
+// ---------------------------
+$aCol: #4183c4;
+$aHoverCol: #1e70bf;
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+ul,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif, 'Microsoft Yahei', '微软雅黑';
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.87);
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+.tt {
+  display: none;
+}
+
+a,
+a:hover {
+
+}
+a {
+  color: $aCol;
+  text-decoration: none;
+}
+a:hover {
+  color: $aHoverCol;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+section,
+div {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 8rem;
+}
+
+// -----------------
+// 全局属性
+// -----------------
+:global {
+  .rip {
+    overflow: hidden;
+    position: relative;
+  }
+  span[type="button"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .title {
+    height: 4rem;
+    padding: 1.1rem 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .popover-tips {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+
+    p {
+      margin: 0 0 0.5rem;
+    }
+  }
+  .inner {
+    padding: 0 1rem;
+  }
+
+  .bdrt {
+    border-top: 1px solid #ddd;
+  }
+
+  .filterDate {
+    display: flex;
+    flex-wrap: wrap;
+    & > div {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .filter-bar {
+    padding: 0 1.5rem;
+    position: absolute;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    & > div[data-react-toolbox="input"] {
+      padding: 0;
+      width: 25rem;
+      input {
+        padding-right: 3rem;
+      }
+    }
+
+    & > .search-icon {
+      position: absolute;
+      top: -0.2rem;
+      left: 23rem;
+    }
+  }
+
+  .label, .input-wrap {
+    display: inline-block;
+  }
+
+  .label {
+    text-align: right;
+    padding-right: 1.2rem;
+  }
+  .input-wrap {
+    width: 28rem;
+  }
+
+  .panel {
+    padding: 2rem 3rem;
+    border-top: 1px solid #ddd;
+    &.item {
+      display: flex;
+      flex-wrap: wrap;
+      & > div {
+        flex: 1;
+      }
+
+      div[data-react-toolbox="radio-group"] {
+        display: flex;
+        flex-wrap: wrap;
+
+        label {
+          width: 35%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    .inline-bl {
+      a, span {
+        display: inline-block;
+        margin-right: 1.5rem;
+      }
+    }
+
+    label[data-react-toolbox="radio-button"] {
+      display: inline-block;
+      margin-right: 1.5rem;
+    }
+  }
+
+  .reset-pwd {
+    display: flex;
+
+    & > div {
+      margin-left: 10rem;
+      position: absolute;
+      margin-top: -0.5rem;
+    }
+    div[data-react-toolbox="input"] {
+      padding: 0;
+      display: inline-block;
+      margin: 0 1rem;
+    }
+  }
+
+  .static-group {
+    padding: 1rem 0;
+
+    label, p {
+      display: inline-block;
+    }
+
+    label {
+      width: 12rem;
+    }
+    p {
+      margin-bottom: 0;
+    }
+
+    p.help-block {
+      display: block;
+      margin-top: 0.5rem;
+      margin-left: 12rem;
+
+      @media screen and (max-width: 860px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .inline-group {
+    display: flex;
+    align-items: center;
+    height: 4.2rem;
+    margin-bottom: 0.5rem;
+    p, label {
+      margin-bottom: 0;
+    }
+    label {
+      margin-right: 0.5rem;
+    }
+    div[data-react-toolbox="input"] {
+      padding: 0;
+      width: 8rem;
+      margin: 0 0.5rem;
+    }
+  }
+
+  .text-danger {
+    color: rgb(244, 67, 54);
+  }
+
+  .email-wrap {
+    div[data-react-toolbox="input"] {
+      padding: 0;
+      width: 30rem;
+    }
+  }
+
+  .support {
+    display: flex;
+    flex-wrap: wrap;
+    ul {
+      width: 50%;
+      @media screen and (max-width: 860px) {
+        width: 350rem;
+      }
+    }
+  }
+}
